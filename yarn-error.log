@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/local/bin/node /Users/d.castillo.marfull/.yarn/bin/yarn.js
+
+PATH: 
+  /Users/d.castillo.marfull/.yarn/bin:/Users/d.castillo.marfull/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/d.castillo.marfull/.yarn/bin:/Users/d.castillo.marfull/.config/yarn/global/node_modules/.bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.17.6
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/d.castillo.marfull/projects/node-express/package.json: Unexpected token } in JSON at position 640
+      at JSON.parse (<anonymous>)
+      at /Users/d.castillo.marfull/.yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/d.castillo.marfull/.yarn/lib/cli.js:310:30)
+      at /Users/d.castillo.marfull/.yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "node-express",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "nodemon index.js",
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dcastillom/node-express.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/dcastillom/node-express/issues"
+    },
+    "homepage": "https://github.com/dcastillom/node-express#readme",
+    "devDependencies": {
+      "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+      "express": "^4.17.3",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
