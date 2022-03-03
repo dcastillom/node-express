@@ -82,7 +82,8 @@ app.use((request, response, next) => {
   })
 })
 
-const PORT = 3001
+// Heroku needs that process.env.POST
+const PORT = process.env.POST || 3001
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
